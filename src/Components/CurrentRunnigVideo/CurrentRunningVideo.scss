@@ -1,0 +1,71 @@
+body{
+    padding: 30px;
+    color:blue;
+}
+.currentRunningVideo_play
+{
+    display: flex;
+    justify-content: center;
+}
+#currentRunningVideo_status-button
+{
+    padding:10px 0px;
+    background-color: blue;
+    color:aliceblue;
+    font-weight: 900;
+    border-radius: 50%;
+    border: 1px solid white;
+    cursor: pointer;
+}
+.currentRunningVideo_title
+{
+    padding-left: 50px;
+    text-transform: capitalize;
+    font-size: 30px;
+    font-weight: bold;
+}
+.currentRunningVideo_desc
+{
+    padding-left: 50px;
+    font-size: 20px;
+
+}
+.currentRunningVideo_duration
+{
+    color:gray;
+    font-size: 14px;
+    padding-left: 50px;
+    padding-top: 10px;
+}
+.currentRunningVideo_options
+{
+    display: flex;
+    justify-content: space-evenly;
+
+  
+}
+.currentRunningVideo_option
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap:10px;
+    padding-top: 70px;
+
+    .currentRunningVideo_currentRunningVideo_optionName
+    {
+        color:gray;
+    }
+
+    
+}
+.currentRunningVideo_logo
+{
+    width:50px;
+    border-radius: 20px;
+}
+.currentRunningVideo_divider
+{
+    height: 0px;
+    border: 1px solid blue;
+}

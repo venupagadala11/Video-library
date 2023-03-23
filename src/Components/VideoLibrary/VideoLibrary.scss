@@ -1,0 +1,10 @@
+.videoCard_container
+{
+    padding: 30px 0px;
+    .videoLibrary_videoCards
+    {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+}

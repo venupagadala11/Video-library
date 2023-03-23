@@ -1,0 +1,32 @@
+.videoCard_container
+{
+    // padding: 50px 30px;
+    .videoCard_videoThumbNail
+    {
+        width: 420px;
+        height: 230px;
+        cursor: pointer;
+        border: 2px solid white;
+    }
+    .videoCard_video-details
+    {
+        padding: 10px 0px 20px 0px;
+        .videoCard_title
+        {
+            font-size: 25px;
+            font-family: NunitoSans-Light;
+            color: #FFFFFF;
+            letter-spacing: 0;
+            text-transform: capitalize;
+            padding-left:10px;
+        }
+        .videoCard_desc
+        {
+            font-size: 20px;
+            font-family: NunitoSans-Light;
+            color: #97A8DB;
+            letter-spacing: 0;
+            padding: 5px 10px;
+        }
+    }
+}
